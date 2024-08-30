@@ -1,0 +1,30 @@
+:root {
+    --bs-primary: #5a67d8;
+    --bs-secondary: #2d3748;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 56px;
+}
+
+.navbar {
+    background-color: var(--bs-primary);
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.card-title {
+    color: var(--bs-primary);
+}
+
+.card-text {
+    color: var(--bs-secondary);
+}
+
+h1, h2 {
+    color: var(--bs-primary);
+}
